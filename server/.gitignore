@@ -1,0 +1,50 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+*.swp
+*.swo
+*~
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Test directory
+test/
+tests/
+__tests__/
+
+# MongoDB data files
+data/
+*.pid
+*.seed
+
+# Other
+npm-debug.log*
+package-lock.json
+package.json
+yarn-error.log
+yarn-debug.log*
+*.tgz
